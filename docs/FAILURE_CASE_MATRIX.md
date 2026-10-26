@@ -1,0 +1,13 @@
+# Failure Case Matrix
+
+This matrix outlines how the system currently behaves under extreme stress or failure conditions, ensuring that no silent failures or fake success states occur.
+
+| Subsystem | Failure Scenario | Detection Mechanism | System Response | User Experience |
+| :--- | :--- | :--- | :--- | :--- |
+| **Database** | MongoDB cluster goes offline or network partitioned | Mongoose connection listeners (`error`, `disconnected`) | API endpoints immediately return `500 Internal Server Error`. Redis locks are preserved if Redis is up, but no data writes occur. | The frontend surfaces a "Service temporarily unavailable" UI error. No data is modified. |
+| **Real-Time Engine** | Redis instance crashes | `redisClient.status !== 'ready'` checks in `queueService` and `bookingService` | Real-time operations (Queue joins, Booking locks) throw explicit exceptions. HTTP endpoints return `503 Service Unavailable`. | Users attempting to join a queue see an immediate "Real-time service unavailable" toast. |
+| **Event Bus** | RabbitMQ broker goes offline | `rabbitMQService` disconnect handlers schedule reconnections | `publishEvent` fails gracefully but logs the error. The API request *succeeds* because the event bus is decoupled from the primary HTTP response path. | No visible error to the user, but analytics/decision-engine pipelines are delayed. |
+| **Machine Learning** | FastAPI ML Service crashes or times out | Strict `timeout: 5000` applied to the Axios `mlClient` | Axios throws an error. The `mlService` catches it and returns a fallback structure (e.g., `success: false`). The queue engine falls back to naive calculation without crashing. | Users see slightly less accurate waiting times (naive calculation) but core queue functionality remains uninterrupted. |
+| **Auth** | Firebase Auth network failure | `getApps().length` check and `verifyIdToken` failure | Middleware returns `500` or `401`. | User is forcibly logged out or prevented from making secured API calls. |
+| **External Routing**| OSRM/Nominatim API Rate Limited (429) or offline | HTTP Error thrown by external server | Axios throws exception, `osrmService` catches, logs, and explicitly throws it up the chain. | User sees "Failed to fetch route" or "Geocoding unavailable" instead of a straight line or fake destination. |
+| **Concurrency** | Two users book same charger at exact same millisecond | Redis Distributed Lock (`redisCacheService.set(..., NX)`) | The first request acquires the lock and writes to MongoDB. The second request hits the lock wall and is rejected. | User 1 gets "Confirmed". User 2 gets "Slot already booked by another user". |

@@ -1,0 +1,24 @@
+METR-LA Data Quality Report
+===========================
+Original shape: 34272 rows, 208 columns
+Number of sensors: 207
+Timestamp range: 2012-03-01 00:00:00 to 2012-06-27 23:55:00
+Sampling interval: 5.0 minutes
+
+Missing values (total): 0
+Duplicate rows: 0
+Duplicate timestamps: 0
+Zero values (valid traffic): 575302
+Negative values (invalid): 0
+Values > 100 (potential outliers): 0
+
+Processing Actions Taken:
+- Renamed 'Unnamed: 0' to 'timestamp'.
+- Converted to datetime and sorted chronologically.
+- Handled missing values using linear interpolation (time-series appropriate) followed by edge-fill.
+- Handled 0 missing values.
+- Capped any negative invalid values to 0 to preserve genuine traffic zero-states.
+- Preserved genuine high traffic values (if any) to not destroy true congestion/free-flow patterns.
+- Dropped exact duplicate timestamps (kept first).
+
+Final shape: 34272 rows, 208 columns

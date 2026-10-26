@@ -1,0 +1,23 @@
+Feature Engineering Report
+==========================
+Original Shape (long format): (7094304, 3)
+Final Shape (after dropping NaNs from shifts): (7034481, 23)
+
+Number of columns (features + target + id): 23
+Target Variable: target_5min
+
+Features Created:
+- Time features: hour, minute, day_of_week, day_of_month, month, is_weekend, is_peak_hour
+- Lag features: lag_1, lag_3, lag_6, lag_12, lag_24, lag_288
+- Rolling features: rolling_mean_3, rolling_mean_6, rolling_mean_12, rolling_mean_288, rolling_std_12, rolling_std_288
+
+Data Splitting (Chronological Split Confirmed):
+- Training dataset size: 4924136 rows (70.0%)
+  Date range: 2012-03-02 00:00:00 to 2012-05-23 14:20:00
+- Validation dataset size: 1055172 rows (15.0%)
+  Date range: 2012-05-23 14:20:00 to 2012-06-10 07:05:00
+- Test dataset size: 1055173 rows (15.0%)
+  Date range: 2012-06-10 07:05:00 to 2012-06-27 23:50:00
+
+Chronological Splitting Validation:
+No random shuffling was used. Data was sorted by timestamp before splitting to ensure no future data leaks into the training set.

@@ -1,0 +1,56 @@
+# Exclude Frontend (managed in separate repo: https://github.com/Dharun67/EV-FRONTEND)
+/frontend/
+
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+
+# Python cache & bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+dist/
+*/dist/
+build/
+*.egg-info/
+
+# Environment secrets
+.env
+*.env
+.env.*
+!.env.example
+!*.env.example
+
+# Large Data & Training Datasets (>10MB / raw dumps)
+data/ml/
+data/processed/
+data/METR-LA.csv
+*.csv.gz
+*.tar.gz
+*.zip
+*.h5
+
+# Dumps & logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+tree_*.txt
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

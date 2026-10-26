@@ -1,0 +1,23 @@
+{
+  "model_name": "Unsupervised_Charger_Health_Scoring",
+  "model_version": "1.0.0",
+  "training_date": "2026-09-01T06:31:24.019950",
+  "dataset": "ev_charging_sessions.csv",
+  "features": [
+    "sessionsCount",
+    "totalEnergyKwh",
+    "zeroEnergyRate",
+    "abnormalRate"
+  ],
+  "target": "None (Unsupervised)",
+  "training_rows": 796,
+  "testing_rows": 0,
+  "metrics": {
+    "accuracy": null,
+    "precision": null,
+    "recall": null,
+    "f1_score": null,
+    "roc_auc": null
+  },
+  "limitations": "No direct maintenance or failure labels available in dataset. Using rule-based health score based on session faults and usage intensity."
+}

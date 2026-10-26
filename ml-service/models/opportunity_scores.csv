@@ -1,0 +1,210 @@
+stationId,name,city,opportunityScore,norm_utilization,norm_demand_context
+195397,Spencer plaza,Chennai,25.2,0.2542372881355932,0.5
+195398,Grand Chennai by GRT Hotels,Chennai,27.2,0.3050847457627119,0.5
+300744,Saravana Stores - Padi - Relux Electric , Chennai,38.1,0.576271186440678,0.5
+300745,Cosmopolitan Club - Relux Electric, Chennai,42.8,0.6949152542372882,0.5
+311285,SRM Eshwari College,Ramapuram Chennai,23.1,0.2033898305084746,0.5
+301545,Dr. MGR University ,"Maduravoyal, chennai",43.5,0.711864406779661,0.5
+301385,Dr. MGR University ,chennai,30.6,0.3898305084745763,0.5
+170932,IITM Research Park,Chennai City Corporation Limits,40.1,0.6271186440677966,0.5
+195399,Holiday Inn Chennai OMR,Chennai,23.8,0.22033898305084745,0.5
+311680,Etron Energies,Chennai,21.8,0.1694915254237288,0.5
+311284,SRM Institute of science and technology,chennai,81.6,0.9152542372881356,0.5
+301154,MM Legacy ,Kanchipuram,50.9,0.8983050847457628,0.5
+301153,EVP Cinemas - Relux Charging Station,Chembarambakkam,44.8,0.7457627118644068,0.5
+195400,Muscat bakery & Restaurants,Irungattukottai,34.0,0.4745762711864407,0.5
+195401,Kalyan Grand Business Hotel,Vandalur,24.5,0.23728813559322035,0.5
+478883,Sheraton Grand Chennai Resort,Chennai,48.2,0.8305084745762712,0.5
+478881,Pondur - Oragadam,Sriperumbudur,29.2,0.3559322033898305,0.5
+478880,Fairfield By Marriott,Sriperumbudur,42.8,0.6949152542372882,0.5
+478882,Four Points By Sheraton,Mahabalipuram,25.2,0.2542372881355932,0.5
+311679,Regency Tiruttani by GRT Hotels,Thiruttani,48.2,0.8305084745762712,0.5
+311599,VEEV Brookfields,Coimbatore,27.2,0.3050847457627119,0.5
+311598,Corporation Parking Lot,Coimbatore,34.7,0.4915254237288136,0.5
+311601,Taj Vivanta Coimbatore,Coimbatore,44.8,0.7457627118644068,0.5
+311600,"Welcomhotel By ITC Hotels, Race Course, Coimbatore",Coimbatore,48.9,0.847457627118644,0.5
+311602,Zone by The Park Hotel,Coimbatore,47.5,0.8135593220338984,0.5
+311603,Ibis Coimbatore City Centre,Coimbatore,37.4,0.559322033898305,0.5
+311604,3 Star Auto Care,Coimbatore,27.9,0.3220338983050847,0.5
+478862,Hydra Charging,Coimbatore,23.1,0.2033898305084746,0.5
+478875,Lotus Hyundai,Coimbatore,22.5,0.1864406779661017,0.5
+311605,Zibe Coimbatore by GRT Hotels,Coimbatore,46.9,0.7966101694915254,0.5
+478863,Hydra Charging Station,Singallur,50.3,0.8813559322033898,0.5
+311597,PSV EV Point,Coimbatore,25.8,0.2711864406779661,0.5
+311606,Fairfield by Marriott Coimbatore,Coimbatore,31.3,0.4067796610169492,0.5
+311608,IOCL Singanallur,Coimbatore,25.8,0.2711864406779661,0.5
+301550,Haribhavanam KMCH,Coimbatore,23.8,0.22033898305084745,0.5
+301398,Haribhavanam KMCH,Coimbatore,47.5,0.8135593220338984,0.5
+311610,Sundaram Motors Coimbatore,Coimbatore,53.0,0.9491525423728814,0.5
+311607,PPS MG Motors,Coimbatore,23.1,0.2033898305084746,0.5
+311609,Hotel Sri Mu Saravana Bhavan,Coimbatore,49.6,0.864406779661017,0.5
+495322,Salzer EV Charging Station,Madukkarai,29.9,0.3728813559322034,0.5
+472532,ev,COIMBATORE,50.3,0.8813559322033898,0.5
+311623, Adyar Ananda Bhavan Navakkarai,Navakkarai,45.5,0.7627118644067796,0.5
+311622,"SR Jungle Resort, Anaikatti",Anaikatti,39.4,0.6101694915254238,0.5
+308936,Jio BP Pulse - Mettupalayam,Mettupalayam,42.1,0.6779661016949152,0.5
+301547,Siva Selvi Charging Station,Pollachi,27.9,0.3220338983050847,0.5
+478861,Hydra Charging Station,Mettupalayam,32.0,0.423728813559322,0.5
+308935,Adyar Ananda Bhavan,Mettupalayam,23.1,0.2033898305084746,0.5
+311629,Junior Kuppanna,Avinashi,45.5,0.7627118644067796,0.5
+311628,"Sree Annapoorna Hotel, Avinashi",Avinashi,32.6,0.4406779661016949,0.5
+311626,Annapoorna - NH Avinashi,Avinashi,48.2,0.8305084745762712,0.5
+311627,Cafe Udupi Ruchi,Avinashi,28.6,0.3389830508474576,0.5
+308933,Gateway Coonoor,Coonoo,41.4,0.6610169491525424,0.5
+311625,"Ibex River Resort, Pollachi",Pollachi,53.0,0.9491525423728814,0.5
+308934,Wellington Gymkhana Club,Wellington,28.6,0.3389830508474576,0.5
+308932,"Welcome Heritage Ayatana, Ooty",Muttinadu,36.7,0.5423728813559322,0.5
+311596,Annalakshmi Drive in,Kotagiri,24.5,0.23728813559322035,0.5
+311595, Lakshmi Retreat,Kotagiri,33.3,0.4576271186440678,0.5
+308930,Sterling Ooty - Fern Hill,Ooty,32.0,0.423728813559322,0.5
+308931,"Club Mahindra Resort - Derby Green, Ooty",Ooty,34.0,0.4745762711864407,0.5
+308929,Hotel Gem Park,Ooty,39.4,0.6101694915254238,0.5
+308928,"Savoy, Ooty - IHCL SeleQtions",Ooty,23.1,0.2033898305084746,0.5
+311594,Deccan Park Resort,Ooty,46.2,0.7796610169491526,0.5
+311450,"Zeon Charging, Sathy",Sathyamangalam ,28.6,0.3389830508474576,0.5
+311630,Sri Kongu Bakes,Perundurai,32.6,0.4406779661016949,0.5
+311593,Sasthapuri Hotels,Gudalur,24.5,0.23728813559322035,0.5
+478864,Hydra Charging Station,Dharapuram,53.6,0.9661016949152542,0.5
+311542,JC Residency Madurai,Madurai,44.2,0.7288135593220338,0.5
+311541,Courtyard by Marriott Madurai,Madurai,22.5,0.1864406779661017,0.5
+311547,Tucker Motors Private Limited,Madurai,28.6,0.3389830508474576,0.5
+311543,Regency Madurai by GRT Hotels,Madurai,34.7,0.4915254237288136,0.5
+311548,The Gateway Hotel Madurai,Madurai,36.0,0.5254237288135594,0.5
+311544,Grand Madurai by GRT Hotels,Madurai,28.6,0.3389830508474576,0.5
+311545,Velammal Hospital and Medical College Parking - 1,Madurai,40.8,0.6440677966101694,0.5
+311546,Velammal Hospital and Medical College Parking - 2,Madurai ,40.8,0.6440677966101694,0.5
+311550,"Amika Hotel, Madurai",Madurai,46.2,0.7796610169491526,0.5
+311539,"Kaveri Auto Garage, Madurai",Madurai,31.3,0.4067796610169492,0.5
+311549,Ever Power Charging Station,Madurai,48.2,0.8305084745762712,0.5
+311552,Jacks Charging Station,Madurai,44.2,0.7288135593220338,0.5
+311551,Jasmine Filling Station,Madurai,46.9,0.7966101694915254,0.5
+311538,"Aras Kia, Nagarai",Nagari,39.4,0.6101694915254238,0.5
+301539,Hotel Temple City Lake Inn,Valaichcherippatti,29.9,0.3728813559322034,0.5
+311580,OM MADURAI SARAVANA BHAVAN,Thangalacheri,33.3,0.4576271186440678,0.5
+478869,Veepees Bistro And Cafè,Tirumangalam,27.9,0.3220338983050847,0.5
+311553,Bharat Petroleum COCO Pump Thirupuvanam,Tiruppuvanam,25.2,0.2542372881355932,0.5
+311537,Hotel Temple City,Thathampatti,42.1,0.6779661016949152,0.5
+311536,Hotel Eden Garden,Pandiarajapuram,42.1,0.6779661016949152,0.5
+311554,BPCL Manamadurai,ManaMadurai,39.4,0.6101694915254238,0.5
+311535,Bharat Petroleum e-charge station,Chinnalapatti,53.6,0.9661016949152542,0.5
+311534,Adyar Ananda Bhavan,Dindigul,48.9,0.847457627118644,0.5
+487809,Menu 99,,42.8,0.6949152542372882,0.5
+311531,"Kaveri Garage, Seelapadi",Dindugal,35.3,0.5084745762711864,0.5
+311532,Hotel PVK Grand,Dindigul,29.2,0.3559322033898305,0.5
+311530,Vel Saravana bhavan,Dindigul,54.3,0.9830508474576272,0.5
+311529,Jio BP Dindigul,Thadikombu,28.6,0.3389830508474576,0.5
+311528,A.R. Fuels,Thadikombu,27.2,0.3050847457627119,0.5
+478870,Sree Karpagamoorthy Automobiles,Karaikudi,40.1,0.6271186440677966,0.5
+311637,Hotel Malar,Karaikudi,37.4,0.559322033898305,0.5
+478868,M. S. Shanmuganadar Mattai Kadai,Mettupatti,52.3,0.9322033898305084,0.5
+478871,Surya's Veggie Restaurant,Vaiyampatti,50.9,0.8983050847457628,0.5
+478873,Courtyard By Marriott,Tiruchirappalli,29.2,0.3559322033898305,0.5
+301644,Charles Mahal,Tiruchirappalli,45.5,0.7627118644067796,0.5
+478872,Oxina Hyundai,Tiruchirappalli,23.8,0.22033898305084745,0.5
+311638,"Kaveri Garage, Piratiyur",Piratiyur,31.3,0.4067796610169492,0.5
+311640,"Kaveri Garage, Tiruchirapalli",Tiruchirappalli,49.6,0.864406779661017,0.5
+301645,VASAN Charging Station ,,32.0,0.423728813559322,0.5
+311639,Hotel Arun Cafe,Viralimalai,21.8,0.1694915254237288,0.5
+311641,"Jayaraj Karz, Vallam Pudur Sethi",Thanjavur,29.2,0.3559322033898305,0.5
+478874,Vetri Hyundai,Thanjavur,53.0,0.9491525423728814,0.5
+311644,Aswins Veg Restaurant,Perambalur,40.1,0.6271186440677966,0.5
+301365,Ero G Electric Charging Station,perundurai ,47.5,0.8135593220338984,0.5
+478877,Ashva Hyundai,Elambalur,40.8,0.6440677966101694,0.5
+311526,Sri Venkateshwara Auto Fuels,Karur,34.7,0.4915254237288136,0.5
+311525,Subbanna Hotel,Karur,44.2,0.7288135593220338,0.5
+311524,The True Saai Works Karur,Karur,54.3,0.9830508474576272,0.5
+311523,11 to 11 Family Restaurant,Karur,40.8,0.6440677966101694,0.5
+470709,AKR Textiles,Karur,39.4,0.6101694915254238,0.5
+470710,VSB Auto Care,Karur,29.9,0.3728813559322034,0.5
+311540,Zibe Salem by GRT Hotels,Salem,30.6,0.3898305084745763,0.5
+311495,The True Saai Works Salem,Salem,27.2,0.3050847457627119,0.5
+478876,Kovai Hyundai,Salem,34.7,0.4915254237288136,0.5
+311494,MG Salem,Salem,48.9,0.847457627118644,0.5
+311496,Adyar Ananda Bhavan - A2B,Salem,23.8,0.22033898305084745,0.5
+311497,RRK Hitech Petroleum,Santhiyur,36.7,0.5423728813559322,0.5
+311498,Sai Annapoorna Veg,Santhiyur,33.3,0.4576271186440678,0.5
+311493,Salem RR Biryani,Salem,40.1,0.6271186440677966,0.5
+311499,Saravana Parottas,Mallur,45.5,0.7627118644067796,0.5
+311492,Aasai Aasai Anandha Bhavan,Omalur,44.2,0.7288135593220338,0.5
+311491,Anandha Bhavan,Omalur,52.3,0.9322033898305084,0.5
+301546,HR Legacy,yercaud,47.5,0.8135593220338984,0.5
+311500,Adyar Ananda Bhavan - A2B,Rasipuram,33.3,0.4576271186440678,0.5
+311490,Jio BP Pulse Salem,Pallapatti,42.1,0.6779661016949152,0.5
+301649,Mettupatty Toll Plaza,selam,36.0,0.5254237288135594,0.5
+311501,NEW POESH GARDEN - FAMILY RESTAURANT,Rasipuram,52.3,0.9322033898305084,0.5
+297627,Relux 25KW Chidambaram,Chidambaram,53.6,0.9661016949152542,0.5
+297626,chargemod 30kw Amoha hotel, Tiruvannamalai,36.0,0.5254237288135594,0.5
+311634,"Sree Saravana Bhavan, Sankagiri",Sangagiri,31.3,0.4067796610169492,0.5
+171101,Saravana Bhavan,Vaigundam,50.3,0.8813559322033898,0.5
+301228,Thoppur Toll Plaza,Thoppur,25.8,0.2711864406779661,0.5
+311502,Jio-BP Namakkal,Namakkal,44.2,0.7288135593220338,0.5
+311503,Sri Nathi Restaurant,Pappinayakkanpatti,21.8,0.1694915254237288,0.5
+311504,Coastal Grand Hotel,Namakkal,25.8,0.2711864406779661,0.5
+311489,Annai Ananda Bhavan Restaurant,A.Reddihalli,35.3,0.5084745762711864,0.5
+311645,"Adyar Ananda Bhavan, Attur",Attur,29.9,0.3728813559322034,0.5
+311518,Sri Nathi Restaurant,Paramathi,24.5,0.23728813559322035,0.5
+311632,Texvalley,Erode,42.1,0.6779661016949152,0.5
+311633,"Milky Mist Cafe, Erode Sathy Highway",Erode,36.0,0.5254237288135594,0.5
+297625,Relux 30KW Hotel Himalaya,Annamalai R.F,25.2,0.2542372881355932,0.5
+311631,Victory Tata,Erode,36.0,0.5254237288135594,0.5
+311488,M K Agencies,Kerakodahalli,29.2,0.3559322033898305,0.5
+470897,RK Mess & Restaurant,Manmangalam,45.5,0.7627118644067796,0.5
+311527,Adyar Ananda Bhavan,Thennilai,27.2,0.3050847457627119,0.5
+470760,Aravai Aanandas,Karur,39.4,0.6101694915254238,0.5
+301544,Hotel Benzz Park,Vellore,34.0,0.4745762711864407,0.5
+497713,"Park Inn by Radisson, Vellore",Vellore,42.1,0.6779661016949152,0.5
+311677,Regency Sameera Vellore by GRT Hotels,Vellore,36.7,0.5423728813559322,0.5
+311678,RB Business Centre,Vellore,29.9,0.3728813559322034,0.5
+308366,Aryaas Pure Veg,,42.1,0.6779661016949152,0.5
+308365,Cafe Coffee Day,Chennai,46.9,0.7966101694915254,0.5
+301229,Sree Annapoorna Restaurant ,Ambur - Vellore,49.6,0.864406779661017,0.5
+301227,Vaniyambadi Toll Plaza - Relux Charaging station,Vaniyambadi,47.5,0.8135593220338984,0.5
+311676,7 Star Green Veg Restaurant,Vaniyambadi,32.0,0.423728813559322,0.5
+478879,Hotel Seasons,Tiruvannamalai,44.2,0.7288135593220338,0.5
+311636,Regency Tuticorin by GRT Hotels,Thoothukudi,29.9,0.3728813559322034,0.5
+311635,Pearl Garden Resort,Veerapandianpattinam,38.7,0.5932203389830508,0.5
+297622,Regency Tirunelveli By GRT Hotels,Tirunelveli,25.2,0.2542372881355932,0.5
+297624,Statiq 60kW Tirunelveli,Tirunelveli,44.2,0.7288135593220338,0.5
+478865,JBS Bistro Cafe,Tirunelveli,55.0,1.0,0.5
+478855,KKOH,Nagercoil,49.6,0.864406779661017,0.5
+301962,Marshal E Tech Station,Kanyakumari ,44.8,0.7457627118644068,0.5
+301963,Quality Inn VIHA,Kumbakonam,42.8,0.6949152542372882,0.5
+301540,Hotel VPS Grand - Palani,Palani,49.6,0.864406779661017,0.5
+311457,Chennai Silks Hosur,,41.4,0.6610169491525424,0.5
+311456,"Hotel Hills, Hosur",Hosur,31.9,0.423728813559322,0.5
+311458,True Sai Tata,Hosur,40.8,0.6440677966101694,0.5
+311459,Siri Motors,Hosur,30.6,0.3898305084745763,0.5
+311460,Jio BP Hosur,Kamandoddi,31.3,0.4067796610169492,0.5
+311461,Starbucks & KFC Shoolagiri ,Shoolagiri,48.9,0.847457627118644,0.5
+311462,Jio BP Hosur - 2,Nallaganakothapalli,55.0,1.0,0.5
+301964,HPCL Shoolagiri,Krishnagiri,40.8,0.6440677966101694,0.5
+311463,DSquare Food Hub,Sundagiri,25.8,0.2711864406779661,0.5
+311464,Adyar Ananda Bhavan,Chinnar,44.2,0.7288135593220338,0.5
+311482,Hotel Saravanaa Bavaa,Krishnagiri,40.1,0.6271186440677966,0.5
+311480,Saravana Bhavan Classic,Sikkarimedu,42.8,0.6949152542372882,0.5
+311481,Sree Saravana Bhavan Veg. Treat,Krishnagiri,28.6,0.3389830508474576,0.5
+311483,LAVATO - A Premium Lounge,Junjupalli,27.9,0.3220338983050847,0.5
+311484,Hotel Saravanaa Bhava,Krishnagiri,37.4,0.559322033898305,0.5
+311485,Hotel Saravana Bhavan Classic,Krishnagiri,48.9,0.847457627118644,0.5
+301543,Alps Residency - A Bergamont Group of Hotel,Krishnagiri,32.0,0.423728813559322,0.5
+311486,The True Saai Works Krishnagiri,Krishnagiri,41.4,0.6610169491525424,0.5
+311487,Italian Lounge - Cafe 66,Sappanipatti,50.3,0.8813559322033898,0.5
+497874,EL Shadaai EVCS (Charge Mod),Neyveli ,39.4,0.6101694915254238,0.5
+497946,EL shaddai EV station,,49.6,0.864406779661017,0.5
+301646,Ocean Spray Resort ,Villupuram,43.5,0.711864406779661,0.5
+478878,Sugam Hospitality,Arasur,43.5,0.711864406779661,0.5
+301647,Prashanth Charging Station,Chidambaram,35.3,0.5084745762711864,0.5
+311648,"Cafe Udupi Ruchi, Ulundurpet",Ulundurpet,42.8,0.6949152542372882,0.5
+301155,Hotel Aishwarya Bhavan,Tindivanam - Villupuram,21.8,0.1694915254237288,0.5
+301648,NS Charging Station,sirkali,40.1,0.6271186440677966,0.5
+311647,Hotel Sri Anandhas,Veppur,23.1,0.2033898305084746,0.5
+311895,Silavattam Village,"Madurathakam, Chengalpattu Dt",36.0,0.5254237288135594,0.5
+311642,Golden Sand,Velankanni,24.5,0.23728813559322035,0.5
+311556,Hotel Coral Residency,Ramanathapuram,50.9,0.8983050847457628,0.5
+311557,Bheemas Nalabagam,Ramanathapuram,27.2,0.3050847457627119,0.5
+311555,Chima Cars,Ramanathapuram,23.8,0.22033898305084745,0.5
+311558,MDS Bakery,Ramanathapuram,38.1,0.576271186440678,0.5
+301541,KSN Charging Station,Ramanathapuram,40.8,0.6440677966101694,0.5
+311559,Keerthi Residency,Vani,37.4,0.559322033898305,0.5
+311560,Tucker Rameswaram,Rameshwaram,25.2,0.2542372881355932,0.5
+311561,Hotel Star palace,Rameswaram,29.2,0.3559322033898305,0.5

@@ -1,0 +1,7 @@
+Final Model Metrics (Test Dataset)
+==================================
+Model: Random Forest Regressor
+MAE:  2.7931
+RMSE: 6.2085
+R2:   0.9267
+MAPE: 42521618.2681%

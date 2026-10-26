@@ -1,0 +1,30 @@
+{
+  "model_name": "EV_Charging_Demand_Forecast",
+  "model_version": "1.0.0",
+  "training_date": "2026-09-01T06:18:19.910192",
+  "dataset": "ev_charging_sessions.csv",
+  "features": [
+    "station_id",
+    "hour",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "is_weekend",
+    "previous_demand"
+  ],
+  "target": "charging_sessions",
+  "training_rows": 14932,
+  "testing_rows": 3734,
+  "metrics": {
+    "mae": 0.08521299525762836,
+    "rmse": 0.2121209383399076,
+    "r2": 0.12672952260925452,
+    "baseline_mae": 0.07628102124620603,
+    "baseline_rmse": 0.21228200595582442
+  },
+  "thresholds": {
+    "LOW_MAX": 1,
+    "MEDIUM_MAX": 1,
+    "HIGH_MAX": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "demand_model": {
+    "version": "1.0.0",
+    "last_trained": "2026-08-29T04:15:17.391438",
+    "dataset": "demanddatas",
+    "target": "energyDemandKwh",
+    "features": [
+      "hour",
+      "day_of_week",
+      "month",
+      "is_weekend",
+      "location"
+    ],
+    "training_rows": 8000,
+    "test_rows": 2000,
+    "metrics": {
+      "mae": 66.53041874729438,
+      "rmse": 74.61185195541283,
+      "r2": -2.0816228108069987,
+      "baseline_mae": 54.170086250000004
+    },
+    "top_features": [
+      {
+        "feature": "hour",
+        "importance": 0.4227
+      },
+      {
+        "feature": "month",
+        "importance": 0.3849
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.1135
+      },
+      {
+        "feature": "is_weekend",
+        "importance": 0.0788
+      },
+      {
+        "feature": "location_Junction-1",
+        "importance": 0.0
+      }
+    ]
+  },
+  "revenue_model": {
+    "version": "1.0.0",
+    "last_trained": "2026-08-29T04:15:17.542624",
+    "dataset": "chargingsessions (aggregated daily)",
+    "target": "daily_revenue",
+    "features": [
+      "day_of_week",
+      "month",
+      "is_weekend",
+      "lag_1_revenue",
+      "lag_7_revenue"
+    ],
+    "training_rows": 7,
+    "test_rows": 2,
+    "metrics": {
+      "mae": 1100.1382723393835,
+      "rmse": 1337.2103626237192,
+      "r2": -3.7194819082808905,
+      "baseline_mae": 1083.7510192652321
+    }
+  },
+  "opportunity_model": {
+    "version": "1.0.0",
+    "last_trained": "2026-08-29T04:15:17.717517",
+    "dataset": "stations + demanddatas",
+    "type": "rule-based heuristic",
+    "formula": "40% Utilization + 30% Local Demand + 30% Power Capacity",
+    "stations_scored": 209
+  }
+}
